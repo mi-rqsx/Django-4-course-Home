@@ -4,8 +4,9 @@ venv/
 __pycache__/
 
 #ide stuff
-.vscode
+
 .idea
+.venv
 
 #django stuff
 db.sqlite3
