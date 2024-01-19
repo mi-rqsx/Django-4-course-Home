@@ -9,7 +9,7 @@
 
             <!-- Миниатюры -->
             <div class="col-md-4">
-                <img src="{{good.image.url}}"
+                <img src="{% if good.image %}{{good.image.url}}{% else %}{% static 'deps/images/Not found image.png' %}{% endif %}"
                     class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#imageModal1">
             </div>
             <div class="col-md-4 ">
@@ -28,7 +28,7 @@
                                 aria-label="Закрыть"></button>
                         </div>
                         <div class="modal-body">
-                            <img src="{{good.image.url}}"
+                            <img src="{% if good.image %}{{good.image.url}}{% else %}{% static 'deps/images/Not found image.png' %}{% endif %}"
                                 class="img-fluid" alt="Изображение 1">
                         </div>
                     </div>
