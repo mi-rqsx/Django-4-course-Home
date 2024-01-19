@@ -6,9 +6,9 @@
             "name": "Чайный столик и три стула",
             "slug": "chajnyj-stolik-i-tri-stula",
             "description": "Комплект из трёх стульев и дизайнерский столик для гостинной комнаты.",
-            "image": "",
+            "image": "goods_images/set_of_tea_table_and_three_chairs.jpg",
             "price": "150.00",
-            "discount": "0.00",
+            "discount": "10.00",
             "quantity": 10,
             "category": 6
         }
@@ -20,10 +20,10 @@
             "name": "Чайный столик и два стула",
             "slug": "chajnyj-stolik-i-dva-stula",
             "description": "Набор из стола и двух стульев в минималистическом стиле.",
-            "image": "",
+            "image": "goods_images/set_of_tea_table_and_two_chairs.jpg",
             "price": "93.00",
-            "discount": "0.00",
-            "quantity": 0,
+            "discount": "10.00",
+            "quantity": 12,
             "category": 6
         }
     },
@@ -104,9 +104,9 @@
             "name": "Диван обыкновенный",
             "slug": "divan-obyknovennyj",
             "description": "Диван, он же софа обыкновенная, ничего примечательного для описания",
-            "image": "",
+            "image": "goods_images/sofa.jpg",
             "price": "190.00",
-            "discount": "0.00",
+            "discount": "10.00",
             "quantity": 10,
             "category": 10
         }
@@ -118,9 +118,9 @@
             "name": "Стул офисный",
             "slug": "stul-ofisnyj",
             "description": "Описание товара, про то какой он классный, но это стул, что тут сказать...",
-            "image": "",
+            "image": "goods_images/office_chair.jpg",
             "price": "30.00",
-            "discount": "0.00",
+            "discount": "5.00",
             "quantity": 13,
             "category": 9
         }
@@ -132,9 +132,9 @@
             "name": "Растение",
             "slug": "rastenie",
             "description": "Растение для украшения вашего интерьера подарит свежесть и безмятежность обстановке.",
-            "image": "",
+            "image": "goods_images/plants.jpg",
             "price": "10.00",
-            "discount": "0.00",
+            "discount": "10.00",
             "quantity": 34,
             "category": 7
         }
@@ -146,9 +146,9 @@
             "name": "Цветок стилизированный",
             "slug": "cvetok-stilizirovannyj",
             "description": "Дизайнерский цветок (возможно искусственный) для украшения интерьера",
-            "image": "",
+            "image": "goods_images/flower.jpg",
             "price": "15.00",
-            "discount": "0.00",
+            "discount": "10.00",
             "quantity": 34,
             "category": 7
         }
@@ -160,9 +160,9 @@
             "name": "Прикроватный столик мод",
             "slug": "prikrovatnyj-stolik-mod",
             "description": "Столик, довольно странный на вид, но подходит для размещения рядом с кроватью.",
-            "image": "",
+            "image": "goods_images/strange_table.jpg",
             "price": "25.00",
-            "discount": "0.00",
+            "discount": "90.00",
             "quantity": 12,
             "category": 11
         }
