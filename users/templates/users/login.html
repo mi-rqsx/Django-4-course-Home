@@ -12,6 +12,9 @@
                         {% comment %} {% if form.non_field_errors %}
                             {{form.non_field_errors}}
                         {% endif %} {% endcomment %}
+                        {% if request.GET.next %}
+                            <input type="hidden" name="next" value={{request.GET.next}}>
+                        {% endif %}
                         <div class="mb-3">
                             <label for="id_username" class="form-label">Имя пользователя</label>
                             <input type="text" class="form-control" value="{% if form.username.value %}{{ form.username.value }}{% endif %}" id="id_username" name="username" placeholder="Введите ваше имя пользователя" required>
